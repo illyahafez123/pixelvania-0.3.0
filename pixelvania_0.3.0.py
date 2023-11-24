@@ -10,7 +10,7 @@ picture = pygame.image.load("guy1.png")
 
 
 pygame.display.set_caption("pixelvania version(1.0.0)")
-back6 = pygame.transform.scale(pygame.image.load("backno1.png"),(1920, 1840))
+back6 = pygame.transform.scale(pygame.image.load("backno1.png"),(1920, 1080))
 inventory_im = pygame.image.load("inventory_ui.png")
 tree_im = pygame.transform.scale(pygame.image.load("tree.png"), (142, 250))
 wood_im = pygame.transform.scale(pygame.image.load("wood_inventory.png"), (20, 25))
